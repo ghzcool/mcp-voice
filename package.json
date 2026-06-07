@@ -1,0 +1,25 @@
+{
+  "name": "mcp-voice",
+  "version": "1.0.0",
+  "description": "MCP tool for text-to-speech with Windows SAPI and Google TTS",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "test": "tsc && node dist/test.js",
+    "dev": "tsc && node dist/index.js"
+  },
+  "keywords": ["mcp", "tts", "voice", "text-to-speech"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.29.0",
+    "zod": "^4.3.6",
+    "node-fetch": "^3.3.2"
+  },
+  "devDependencies": {
+    "@types/node": "^25.5.0",
+    "typescript": "^6.0.2"
+  }
+}
